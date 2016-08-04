@@ -10,18 +10,19 @@ package si400_qidade;
  */
 public class Pessoa {
     private String nome;
-    private int anoDeNascimento;
+    private int anoNascimento;
     
     public Pessoa(String nome, int nasc) {
         this.nome = nome;
-        anoDeNascimento = nasc;
+        anoNascimento = nasc;
     }
     
     public int calculaIdade(int ano) {
-        return ano - anoDeNascimento;
+        return ano - anoNascimento;
     }
 
     public int calculaIdade() {
+        // TODO: obter ano automaticamente
         int anoCorrente = 2016;        
         return calculaIdade(anoCorrente);
     } 
