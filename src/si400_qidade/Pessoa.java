@@ -4,7 +4,8 @@
 package si400_qidade;
 
 /**
- *
+ * Classe que mantém nome e data de nascimento.
+ * 
  * @author Ivan L M Ricarte <ricarte@ft.unicamp.br>
  */
 public class Pessoa {
